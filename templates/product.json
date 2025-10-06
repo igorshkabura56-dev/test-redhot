@@ -49,6 +49,36 @@
           "type": "description",
           "settings": {}
         },
+        "collapsible_tab_jd3gQB": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.details_handle_1_st_accordion.value }}",
+            "open_by_default": true,
+            "icon": "none",
+            "content": "{{ product.metafields.custom.details_content_1_st_accordion | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_9QBn87": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.specifications_handle_2_st_accordion.value }}",
+            "open_by_default": false,
+            "icon": "none",
+            "content": "{{ product.metafields.custom.specifications_content_2_rd_accordion | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_39xHcU": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.shipping_handle_3_rd_accordion.value }}",
+            "open_by_default": false,
+            "icon": "none",
+            "content": "{{ product.metafields.custom.shipping_content_3_rd_accordion | metafield_tag }}",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -64,6 +94,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "collapsible_tab_jd3gQB",
+        "collapsible_tab_9QBn87",
+        "collapsible_tab_39xHcU",
         "share"
       ],
       "settings": {
@@ -74,6 +107,17 @@
         "media_fit": "contain",
         "gallery_layout": "stacked",
         "mobile_thumbnails": "hide",
+        "slides_per_desktop": 1,
+        "slides_per_tablet": 1,
+        "slides_per_mobile": 1,
+        "pagination_desktop": true,
+        "pagination_tablet": true,
+        "pagination_mobile": true,
+        "arrows_tablet": true,
+        "arrows_mobile": true,
+        "gap_desktop": 20,
+        "gap_tablet": 20,
+        "gap_mobile": 10,
         "media_position": "left",
         "image_zoom": "lightbox",
         "hide_variants": true,
