@@ -106,7 +106,7 @@
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "stacked",
-        "mobile_thumbnails": "hide",
+        "mobile_thumbnails": "show",
         "slides_per_desktop": 1,
         "slides_per_tablet": 1,
         "slides_per_mobile": 1,
