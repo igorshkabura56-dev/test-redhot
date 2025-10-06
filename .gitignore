@@ -1,0 +1,16 @@
+# Node / npm
+node_modules/
+package-lock.json
+
+# Shopify theme cache
+.shopify/
+.shopify-cli.yml
+.shopifyignore
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Environment / logs
+.env
+*.log
