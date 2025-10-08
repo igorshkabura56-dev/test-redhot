@@ -1,0 +1,96 @@
+{
+  "article": [],
+  "blog": [],
+  "collection": [],
+  "company": [],
+  "company_location": [],
+  "location": [],
+  "market": [],
+  "order": [],
+  "page": [],
+  "product": [
+    {
+      "key": "color-pattern",
+      "namespace": "shopify",
+      "name": "Color",
+      "description": "Defines the primary color or pattern, such as blue or striped",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "details_handle_1_st_accordion",
+      "namespace": "custom",
+      "name": "Details Handle (1-st accordion)",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "specifications_handle_2_st_accordion",
+      "namespace": "custom",
+      "name": "Specifications Handle (2-nd accordion)",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "shipping_handle_3_rd_accordion",
+      "namespace": "custom",
+      "name": "Shipping Handle (3-rd accordion)",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "details_content_1_st_accordion",
+      "namespace": "custom",
+      "name": "Details content (1-st accordion)",
+      "description": "",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "specifications_content_2_rd_accordion",
+      "namespace": "custom",
+      "name": "Specifications content (2-nd accordion)",
+      "description": "",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "shipping_content_3_rd_accordion",
+      "namespace": "custom",
+      "name": "Shipping content (3-rd accordion)",
+      "description": "",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
+    }
+  ],
+  "variant": [
+    {
+      "key": "variant_gallery",
+      "namespace": "custom",
+      "name": "variant gallery",
+      "description": "",
+      "type": {
+        "name": "list.file_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
+  "shop": []
+}
